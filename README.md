@@ -1,7 +1,7 @@
 # Heya! 👋
 **I'm SubFabula**, and i do some random stuff here from time to time. I'm still learning most things and not even at a intermediate level in most of things (shown by the skill icons shown below from best-right to worst-left)
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,blender,vscode,gamemakerstudio,python,bash,arduino,androidstudio,firebase,godot,unity,unreal)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,blender,vscode,gamemakerstudio,py,bash,arduino,androidstudio,firebase,godot,unity,unreal)](https://skillicons.dev)
 
 <details>
   <summary><b>Github Stats</b></summary>
