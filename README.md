@@ -12,8 +12,8 @@
 <details>
   <summary><b>Github Repo Pins</b></summary>
   
-  ![SubFabula.github.io](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=SubFabula.github.io)
-  ![ARMEE](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=ARMEE)
+  [![SubFabula.github.io](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=SubFabula.github.io)](https://github.com/SubFabula/Subfabula.github.io)
+  [![ARMEE](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=ARMEE)](https://github.com/SubFabula/ARMEE)
 </details>
 
 <!--
