@@ -1,7 +1,7 @@
 # Heya! 👋
-**I'm SubFabula**, and i do some random stuff here from time to time. I'm still learning most things and not even at a intermediate level in most of things (shown by the skill icons shown below from best-right to worst-left)
+**I'm SubFabula**, and i do some random stuff here from time to time. I'm still learning most things and not even at a intermediate level in those (shown by the skill icons shown below from best-right to worst-left. Ones that are closer to the left are probly things that i just used or opened once randomly.)
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,blender,vscode,gamemakerstudio,py,bash,arduino,androidstudio,firebase,godot,unity,unreal)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,blender,github,vscode,gamemakerstudio,godot,py,bash,arduino,androidstudio,firebase,yarn,unreal,unity)](https://skillicons.dev)
 
 <details>
   <summary><b>Github Stats</b></summary>
@@ -13,6 +13,7 @@
   <summary><b>Github Repo Pins</b></summary>
   
   [![SubFabula.github.io](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=SubFabula.github.io)](https://github.com/SubFabula/Subfabula.github.io)
+  [![Karbon Ayak İzi Hesaplma](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=KAIH)](https://github.com/SubFabula/KAIH)
   [![ARMEE](https://github-readme-stats.vercel.app/api/pin/?username=subfabula&repo=ARMEE)](https://github.com/SubFabula/ARMEE)
 </details>
 
