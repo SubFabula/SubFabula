@@ -1,0 +1,56 @@
+name: Update README cards
+
+on:
+  push:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&theme=cobalt&count_private=true&hide_border=true&show_icons=true
+          path: profile/stats.svg
+          token: ${{ secrets.CLASS_TOKEN }}
+
+      - name: Generate top-langs card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=donut&theme=cobalt&count_private=true&hide_border=true
+          token: ${{ secrets.CLASS_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          # Exit if nothing changed
+          git diff --cached --quiet && exit 0
+
+          LAST_MSG="$(git log -1 --pretty=%s)"
+
+          if [[ "$LAST_MSG" =~ ^Update\ README\ cards(\ \(([0-9]+)\))?$ ]]; then
+            COUNT="${BASH_REMATCH[2]}"
+            COUNT=${COUNT:-1}
+            COUNT=$((COUNT + 1))
+
+            git commit --amend -m "Update README cards ($COUNT)"
+            git push --force-with-lease
+          else
+            git commit -m "Update README cards"
+            git push
+          fi
